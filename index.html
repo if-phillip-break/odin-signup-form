@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+
         <div class="column left">
             <div class="logo-banner">
                 <img src="/home/odinstudent/Downloads/odin-logo.png">
@@ -15,10 +16,59 @@
             </div>
             <p id="photo-caption">Photo by Halle West on Unsplash</p>
         </div>
+
         <div class="column right">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to.</p>
+            <div class="blurb">
+                <p><b>This is not a real online service! You know you need 
+                    something like this in your life to help you realize 
+                    your deepest dreams. Sign up <em>now</em> to get started. <br><br>
+                    You <em>know</em> you want to.</b></p>
+            </div>
+            <div class="form">
+                <p>Let's do this!</p>
+                <form action="#" method="get">
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="firstname">FIRST NAME</label><br>
+                                <input type="text" id="firstname" name="firstname">
+                            </th>
+                            <th>
+                                <label for="lastname">LAST NAME</label><br>
+                                <input type="text" id="lastname" name="lastname">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="email">EMAIL</label><br>
+                                <input type="text" id="email" name="email">
+                            </th>
+                            <th>
+                                <label for="phone">PHONE NUMBER</label><br>
+                                <input type="text" id="phone" name="phone">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="password">PASSWORD</label><br>
+                                <input type="text" id="password" name="password">
+                            </th>
+                            <th>
+                                <label for="passwordconfirm">CONFIRM PASSWORD</label><br>
+                                <input type="text" id="passwordconfirm" name="passwordconfirm">                                
+                            </th>
+                        </tr>
+                    </table>
+
+                
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <span id="log">Log in</span></p>
+                    </div>
+                </form>
         </div>
+
     </div>
 </body>
 </html>
